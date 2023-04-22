@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.919);
+    
+}
+p{
+    margin-top: 10px;
+    color:aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 30px;
+}
+.container
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img
+{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    transition: 0.5s;
+    border-radius: 10px;
+
+}
+img:hover{
+    cursor: pointer;
+}
+img:active{
+    transform: scale(0.7);
+}
