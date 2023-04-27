@@ -8,7 +8,7 @@ function calculateBMI()
         bmi=bmi.toFixed(1)
         if(bmi>=18.5 && bmi<=24.9)
         {
-            let print="Your BMI is " + bmi + "which means You are Normal!";
+            let print="Your BMI is " + bmi + " which means You are Normal!";
             document.getElementById("final-result").textContent=print;
         }
         else if(bmi>=25.0 && bmi<=29.9)
