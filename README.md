@@ -1,2 +1,2 @@
 # JS_Practice02
-Practice JS fundamentals 
+Practice JS fundamentals by building projects
